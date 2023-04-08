@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:"border-box"
+}
+
+.star__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-filled::before{
+    content: '\2605';
+    font-size: 70px; 
+}
+
+.star-empty::before{
+content: '\2606';
+font-size: 70px;
+}
