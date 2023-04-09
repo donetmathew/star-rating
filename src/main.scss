@@ -4,6 +4,10 @@
     box-sizing:"border-box"
 }
 
+.wrapper{
+    margin: 50px 0
+}
+
 .star__container{
     display: flex;
     justify-content: center;
@@ -13,6 +17,11 @@
 .star-filled::before{
     content: '\2605';
     font-size: 70px; 
+    color: gold;
+}
+
+p{
+    text-align: center;
 }
 
 .star-empty::before{
